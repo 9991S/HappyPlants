@@ -30,7 +30,7 @@
 ## 1. Introduction
 
 ### 1.1 Purpose
-This Software Requirements Specification (SRS) describes all specifications for the application "Common Playground". It includes an overview about this project and its vision, detailed information about the planned features and boundary conditions of the development process.
+This Software Requirements Specification (SRS) describes all specifications for the application "Happy Plants". It includes an overview about this project and its vision, detailed information about the planned features and boundary conditions of the development process.
 
 
 ### 1.2 Scope
@@ -39,18 +39,19 @@ The project is going to be realized as an Android App.
 Actors of this App can be users or moderators.  
   
 Planned Subsystems are: 
-* Notice Board:  
-The notice board is the essential part of the user interface. Game sessions should be visualized as postings including relevant information about the session. Those should be partly standardized by a form with a free text option for specifics. The data must be stored accordingly.
 * Account System:  
-Users can create accounts so sessions can be connected to a person as well as to join requests. User data must be stored alongside the posting data.
-* Friend List and User Rating:  
-Once the account system is created there will be the option to mark users as favorites. Also users or game sessions should get a rating to counter abuse.
-* Connecting People:  
-The host of a game session has to be notified when someone wants to join their game. Both must then be able to get in touch to organize the details, so messages between the host and the guest have to be enabled. This could be done via automated emails or a custom in-app system. For this an account system is needed.
+The login is an essential part of the application. Users can create accounts so the data can be connected to each user. Only logged in, the following functions are available to users.
+* Register Plants:  
+To keep track of your plants needs you can register the plants in "Happy Plants". To register a plant, information such as "name of the plant" and "size" is required. Optional data is "date of last watercycle" "last time repotted", etc.
+* Reminder:  
+Once you registered some plants there will be the option to be reminded on their needs, such as watering plants, repotting and fertilizing. 
+* Learn about plants:  
+In these functions, information is displayed in the form of articles about registered plants. These articles are about, for example, the choice of a good location.
+* Learn about pests & bugs:  
+In this feature you can learn more about diseases or pests. By clicking on pictures of pests, infection or plants with diseases, information in form of articles can provide helpful knowledge for care. 
 * Storing Data:  
-User data for accounts and possibly profiles has to be stored. Also the game sessions have to be stored as datasets containing the form contents and possibly contact data. The data storage will form the foundation for the visualization, account system and the search feature.
-* Finding your Game:  
-We need a tag system so everyone looking to join a game can search for the kind of games they are interested in. Possibly other aspects can be searchable, such as place or date. Tags must be stored and a search function developed. 
+User data for accounts has to be stored. Also the registered plants have to be stored as datasets linked to the account. The data store is the basis for the account system, plant registration, reminders and articles.
+
 
 ### 1.3 Definitions, Acronyms and Abbreviations
 | Abbrevation | Explanation                            |
@@ -64,10 +65,10 @@ We need a tag system so everyone looking to join a game can search for the kind 
 
 ### 1.4 References
 
-| Title                                                              | Date       | Publishing organization   |
-| -------------------------------------------------------------------|:----------:| ------------------------- |
-| [Common Playground Blog](http://commonplayground.wordpress.com)    | 18.10.2018 | Common Playground Team    |
-| [GitHub](https://github.com/nilskre/CommonPlayground)              | 18.10.2018 | Common Playground Team    |
+| Title                                                            |    Date    | Publishing organization |
+|------------------------------------------------------------------|:----------:|-------------------------|
+| [Happy Plants Blog](https://happyplants763337705.wordpress.com/) | 25.10.2022 | Happy Plants Team       |
+| [GitHub](https://github.com/9991S/HappyPlants)                   | 25.10.2022 | Happy Plants Team       |
 
 
 ### 1.5 Overview
@@ -76,7 +77,8 @@ The following chapter provides an overview of this project with vision and Overa
 ## 2. Overall Description
 
 ### 2.1 Vision
-Inspired by carpool coordination services like ‘BlaBlaCar’ or ‘Mitfahrzentrale’ we want to build an application to coordinate game sessions. We plan to create a platform for people who are looking for other people to play games with. Covering online multiplayer games, tabletop, pen and paper or regular board games we want to provide a kind of bulletin board where people can state what they want to play, when and where they want to do it and how many people they are looking for. Others can then react to the postings and virtually join the play session to be connected by us so everyone can coordinate the actual play session together on a Common Playground.
+After beloved plants died despite enough water, nutrients, light and room, it was time for support. We want to develop an application that not only bundles all the information, but also keeps track of the right time to water, fertilize and repot. The goal is to have healthy and happy plants. And if the plants is still not doing well, "Happy Plants" offers quick advice to identify and fix the problem.
+
 
 ### 2.2 Use Case Diagram
 
@@ -89,8 +91,8 @@ Inspired by carpool coordination services like ‘BlaBlaCar’ or ‘Mitfahrzent
 The technology we use is:
 
 Backend:
--Gradle and Springboot
--H2 Database
+-node.js / firebase
+-MariaDB 
 
 Frontend:
 -Android with Java and XML
@@ -101,37 +103,31 @@ IDE:
 Project Management:
 -YouTrack
 -GitHub
--Microsoft Teams
+-Discord
 
 Deployment:
 -Travis CI
 -Docker and Heroku
 
 Testing:
--Cucumber
--Espresso
--JUnit
--Codacy
--CodeMR
--RestAssured
+-we have no experience with testing, we will add our technology at a later date. 
 
 ## 3. Specific Requirements
 
 ### 3.1 Functionality
 This section will explain the different use cases, you could see in the Use Case Diagram, and their functionality.  
 Until December we plan to implement:
-- 3.1.1 Posting a session
-- 3.1.2 Getting an overview
-- 3.1.3 Creating an account
-- 3.1.4 Logging in
-- 3.1.5 Logging out
+- 3.1.1 Creating an account
+- 3.1.2 Logging in
+- 3.1.3 Logging out
+- 3.1.4 Register plants
+- 3.1.5 Learn about plants
 
 Until June, we want to implement:
-- 3.1.6 Joining a session
-- 3.1.7 Keeping track of your sessions
-- 3.1.8 Leaving a session
-- 3.1.9 Finding a session
-- 3.1.10 Getting in touch
+- 3.1.6 Learn about pests & bugs
+- 3.1.7 Get reminders
+- 3.1.8 delete registered plants
+- 3.1.9 Getting in touch with other plant owners
 
 #### 3.1.1 Posting a session
 This feature is the essential one of our project. The user gets the possibility to post a session. Therefore, they have to select a game and also set the time when they want to play.For offline games, they have to set a location, too. For online games the location can be a server for example or simply be tagged as 'online'.
@@ -247,13 +243,12 @@ We don't have any purchased components yet. If there will be purchased component
 
 #### 3.9.1 User Interfaces
 The User interfaces that will be implented are:
-- Dashboard - lists all session and makes it possible to filter sessions
-- Session Page - shows detailed information about the session and makes it possible to connect session attendants for example via messaging system
-- Login - this page is used to log in 
 - Register - provides a registration form
-- Overwiew of personal sessions - shows all the sessions a user participates in
-- Friend List - friends can be added
-- Profile - makes it possible to post information about yourself, might provide messaging feature, also shows additional information about users (for example: Language, country, favorite games, etc.)
+- Login - this page is used to log in
+- Dashboard - lists all registered plants and makes it possible to get to the other features.
+- Reminder - A List of all current and oncoming reminders
+- Learn about plants - Shows articles
+- Learn about bugs - shows pictures 
 - Settings - shows the settings
 
 #### 3.9.2 Hardware Interfaces
@@ -268,18 +263,19 @@ The server and hardware will communicate using the http protocol.
 ### 3.10 Licensing Requirements
 
 ### 3.11 Legal, Copyright, and Other Notices
-The logo is licensed to the Common Playground Team and is only allowed to use for the application. We do not take responsibilty for any incorrect data or errors in the application.
+The logo we will create is going to be licensed to the Happy Plants Team and is only allowed to use for the application. We do not take responsibilty for any incorrect data or errors in the application.
 
 ### 3.12 Applicable Standards
 The development will follow the common clean code standards and naming conventions. Also we will create a definition of d which will be added here as soon as its complete.
 
 ## 4. Supporting Information
-For any further information you can contact the Common Playground Team or check our [Common Playground Blog](http://commonplayground.wordpress.com). 
+For any further information you can contact the Happy Plant Team or check our [Happy Plants Blog](https://happyplants763337705.wordpress.com/). 
 The Team Members are:
-- Celina Adam
-- Inga Batton
-- Nils Krehl 
-- Denis Reibel
+- Erika
+- Julien
+- Heiko
+- Nikolas
+- Emili
 
 <!-- Picture-Link definitions: -->
 [OUCD]: https://github.com/IB-KA/CommonPlayground/blob/master/UseCaseDiagramCP.png "Overall Use Case Diagram"
