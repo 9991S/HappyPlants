@@ -82,7 +82,7 @@ After beloved plants died despite enough water, nutrients, light and room, it wa
 
 ### 2.2 Use Case Diagram
 
-![OUCD](Software Requirements Specification_files/HappyPlantsUCD1.drawio.png)
+![OUCD](Software Requirements Specification_files/HappyPlantsUCD1.drawio.svg)
 
 - Green: Planned till end of december
 - Yellow: Planned till end of june
