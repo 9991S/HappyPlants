@@ -131,7 +131,7 @@ Until June, we want to implement:
 - 3.1.9 Getting in touch with other plant owners
 
 #### 3.1.1 Creating an account
-To identify all useres we need an account system. This account system enables us to build important functions such as joining a session, leaving a session or a personalized overview over all sessions (Keeping track of your sessions).
+To identify all users we need an account system. This account system enables us to build important functions such as joining a session, leaving a session or a personalized overview over all sessions (Keeping track of your sessions).
 
 
 #### 3.1.2 Logging in
@@ -145,7 +145,7 @@ In case you share your phone, have multiple accounts or just want to be cautius 
 
 
 #### 3.1.4 Register plants
-[Register plants](Software Requirements Specification_files/Use_Case_registerPlant)
+[Register plants](https://github.com/9991S/HappyPlants/blob/add-useCase/Software%20Requirements%20Specification_files/Use_Case_registerPlant)
 
 
 #### 3.1.5 Learn about plants
