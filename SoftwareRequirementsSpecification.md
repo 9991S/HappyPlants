@@ -145,11 +145,10 @@ In case you share your phone, have multiple accounts or just want to be cautius 
 
 
 #### 3.1.4 Register plants
-[Register plants](https://github.com/9991S/HappyPlants/blob/add-useCase/Software%20Requirements%20Specification_files/Use_Case_registerPlant)
-
+[Register plants](https://github.com/9991S/HappyPlants/blob/add-useCase/Software%20Requirements%20Specification_files/Use_Case_registerPlant.md)
 
 #### 3.1.5 Learn about plants
-[Learn about plants](Software Requirements Specification_files/Use_Case_Wiki)
+[Learn about plants](https://github.com/9991S/HappyPlants/blob/add-useCase/Software%20Requirements%20Specification_files/Use_Case_Wiki.md)
 
 #### 3.1.6 Learn about pests and bugs
 
