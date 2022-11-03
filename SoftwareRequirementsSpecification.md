@@ -145,11 +145,12 @@ In case you share your phone, have multiple accounts or just want to be cautius 
 
 
 #### 3.1.4 Register plants
-
+In "Register plants" you can register a new plant. Therefore you add a new entry in the database and fill out all the information.
+<img src="Software Requirements Specification_files/UseCase2_registerPlants.png">
 
 
 #### 3.1.5 Learn about plants
-In Learn about plants you can search for a specific plant name. You can then click on the "more details" to open a new window. 
+In "Learn about plants" you can search for a specific plant name. You can then click on the "more details" to open a new window. 
 This View contains a picture of the selected plant and the information about it. Here we also have a button to return to the Wiki-search-page.
 <img src="Software Requirements Specification_files/USECase_Wiki.png">
 <img src="Software Requirements Specification_files/USECase_Wiki_Plants.png">
