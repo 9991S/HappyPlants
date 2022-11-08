@@ -111,7 +111,14 @@ Deployment:
 -Docker and Heroku
 
 Testing:
--we have no experience with testing, we will add our technology at a later date. 
+-we started to test via BDD and have some files of our first implementations.
+See here for feature files with gherkin:
+[Posting a session](./test_driver/features/wikiInformationPage.feature)
+[Posting a session](./test_driver/features/wikiMainActivity.feature)
+
+See our step files written in dart - disclaimer: those aren't finished yet
+[Posting a session](./test_driver/steps/wikiInformationPage.dart)
+[Posting a session](./test_driver/steps/wikiMainActivitySteps.dart)
 
 ## 3. Specific Requirements
 

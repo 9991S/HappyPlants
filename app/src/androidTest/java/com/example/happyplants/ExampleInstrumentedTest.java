@@ -23,3 +23,5 @@ public class ExampleInstrumentedTest {
         assertEquals("com.example.happyplants", appContext.getPackageName());
     }
 }
+
+app/src/androidTest/java/com/example/happyplants/ExampleInstrumentedTest.java
