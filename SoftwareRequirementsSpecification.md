@@ -113,12 +113,16 @@ Deployment:
 Testing:
 -we started to test via BDD and have some files of our first implementations.
 See here for feature files with gherkin:
-[Posting a session](./test_driver/features/wikiInformationPage.feature)
-[Posting a session](./test_driver/features/wikiMainActivity.feature)
+
+[Gherkin - Wiki Information Page](./test_driver/features/wikiInformationPage.feature)
+
+[Gherkin - Wiki Main Activity](./test_driver/features/wikiMainActivity.feature)
 
 See our step files written in dart - disclaimer: those aren't finished yet
-[Posting a session](./test_driver/steps/wikiInformationPage.dart)
-[Posting a session](./test_driver/steps/wikiMainActivitySteps.dart)
+
+[Step File - Wiki Information Page](./test_driver/steps/wikiInformationPage.dart)
+
+[Step File - Wiki Main Aktivity](./test_driver/steps/wikiMainActivitySteps.dart)
 
 ## 3. Specific Requirements
 
@@ -152,11 +156,10 @@ In case you share your phone, have multiple accounts or just want to be cautius 
 
 
 #### 3.1.4 Register plants
-[Register plants](https://github.com/9991S/HappyPlants/blob/add-useCase/Software%20Requirements%20Specification_files/Use_Case_registerPlant.md)
+[Register plants](./Software Requirements Specification_files/Use_Case_registerPlant.md)
 
 #### 3.1.5 Learn about plants
-[Learn about plants](https://github.com/9991S/HappyPlants/blob/add-useCase/Software%20Requirements%20Specification_files/Use_Case_Wiki.md)
-
+[Learn about plants](./Software Requirements Specification_files/Use_Case_Wiki.md)
 #### 3.1.6 Learn about pests and bugs
 
 
