@@ -157,7 +157,7 @@ In case you share your phone, have multiple accounts or just want to be cautius 
 
 #### 3.1.4 Register plants
 
-[Register plants](HappyPlants/Software Requirements Specification_files/Use_Case_registerPlant.md)
+[Register plants](https://github.com/9991S/HappyPlants/blob/40b0e8d477754b9e670802bbefe15071f0eb74d5/Software%20Requirements%20Specification_files/Use_Case_registerPlant.md)
 
 #### 3.1.5 Learn about plants
 
