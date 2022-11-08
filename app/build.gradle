@@ -7,13 +7,15 @@ android {
     compileSdk 32
 
     defaultConfig {
-        applicationId "com.example.happyplants"
+        applicationId "happyplants"
         minSdk 21
         targetSdk 32
         versionCode 1
         versionName "1.0"
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        testApplicationId "happyplants.app.test"
+        testInstrumentationRunner "app.test.Instrumentation"
     }
 
     buildTypes {
@@ -29,6 +31,12 @@ android {
     buildFeatures {
         viewBinding true
     }
+
+    sourceSets {
+        androidTest {
+            assets.srcDirs = ['src/androidTest/assets']
+        }
+    }
 }
 
 dependencies {
@@ -43,4 +51,9 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    androidTestCompile 'com.android.support.test.espresso:espresso-core:3.0.1'
+    androidTestCompile 'com.android.support:support-annotations:26.1.0'
+    androidTestCompile 'info.cukes:cucumber-android:1.2.5@jar'
+    androidTestCompile 'info.cukes:cucumber-picocontainer:1.2.4'
+
 }
