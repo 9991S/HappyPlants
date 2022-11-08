@@ -156,10 +156,13 @@ In case you share your phone, have multiple accounts or just want to be cautius 
 
 
 #### 3.1.4 Register plants
+
 [Register plants](HappyPlants/Software Requirements Specification_files/Use_Case_registerPlant.md)
 
 #### 3.1.5 Learn about plants
-[Learn about plants](HappyPlants/Software Requirements Specification_files/Use_Case_Wiki.md)
+
+[Learn about plants](./Software Requirements Specification_files/Use_Case_Wiki.md)
+
 #### 3.1.6 Learn about pests and bugs
 
 
