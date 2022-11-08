@@ -137,55 +137,45 @@ Until June, we want to implement:
 - 3.1.8 delete registered plants
 - 3.1.9 Getting in touch with other plant owners
 
-#### 3.1.1 Posting a session
-This feature is the essential one of our project. The user gets the possibility to post a session. Therefore, they have to select a game and also set the time when they want to play.For offline games, they have to set a location, too. For online games the location can be a server for example or simply be tagged as 'online'.
+#### 3.1.1 Creating an account
+To identify all users we need an account system. This account system enables us to build important functions such as joining a session, leaving a session or a personalized overview over all sessions (Keeping track of your sessions).
 
-[Posting a session](./use_cases/UC1_Post_Session.md)
 
-#### 3.1.2 Getting an overview
-This feature provides a basic overview over all current sessions. All posted sessions are added here. From this overview you can select a session and from there join this session.
-
-[Session overview](./use_cases/UC3_Session_Overview.md)
-
-#### 3.1.3 Creating an account
-To identify all useres we need an account system. This account system enables us to build important functions such as joining a session, leaving a session or a personalized overview over all sessions (Keeping track of your sessions).
-
-[Create an account](./use_cases/UC4_Create_Account.md)
-
-#### 3.1.4 Logging in
+#### 3.1.2 Logging in
 The app will provide the possibility to register and log in. This will also make the usability easier when a user wants to manage his sessions, post or join a session because they don't have to enter their mail address every time.
 
-[Login](./use_cases/UC5_Login.md)
 
-#### 3.1.5 Logging out
+
+#### 3.1.3 Logging out
 In case you share your phone, have multiple accounts or just want to be cautius about your privacy you should be able to manually log out.
 
-[Logout](./use_cases/UC6_Logout.md)
 
-#### 3.1.6 Joining a session
-There is also the possibility to join an existing game session. Therefore, the user can select a specific session.
 
-[Join a session](./use_cases/UC2_Join_Session.md)
+#### 3.1.4 Register plants
+[Register plants](https://github.com/9991S/HappyPlants/blob/add-useCase/Software%20Requirements%20Specification_files/Use_Case_registerPlant.md)
 
-#### 3.1.7 Keeping track of your sessions
-The app provides the user with a seperate page view where they get an overview of all sessions they posted or joined. When the user clicks on a session, he can also see who joined his posted sessions.
+#### 3.1.5 Learn about plants
+[Learn about plants](https://github.com/9991S/HappyPlants/blob/add-useCase/Software%20Requirements%20Specification_files/Use_Case_Wiki.md)
+
+#### 3.1.6 Learn about pests and bugs
+
+
+[Learn about pests and bugs](./use_cases/UC2_Join_Session.md)
+
+#### 3.1.7 Get reminders
+
 
 [Keeping track of your sessions](./use_cases/UC7_Keeping_Track.md)
 
-#### 3.1.8 Leaving a session
-The user gets also the possibility to delete a session he posted or to leave a session he joined.
+#### 3.1.8 delete registered plants
+
 
 [Leaving a session](./use_cases/UC8_Leave_Session.md)
 
-#### 3.1.9 Finding a session
-Based on the overview over all sessions this features enables the user to find sessions by specific parameters. Therefore, the user can find a session by tags or other parameters like date. Later on, finding a session will be provided by geolocalization that the users can search for a session in a specific area.
+#### 3.1.9 getting in touch with other plant owners
+
 
 [Finding a session](./use_cases/UC9_Find_Session.md)
-
-#### 3.1.10 Getting in touch
-There must be the possibility that two people who want to play together can communicate with each other. The player who joins the session gets the possibility to contact the owner and vice versa. Later on, when we will have implemented profiles, then they will form another way to communicate with each other.
-
-[Getting in Touch](./use_cases/UC10_Getting_In_Touch.md)
 
 #### 3.1.11 Presenting yourself and checking out others
 With the possibility to log in there comes another functionality, the profile. Every user will have their own profile where they can write some informations about themselves. Because of the privacy policy in Europe, the user has the possibility to only write the information they want other people to see. Using the profile, users can also check out other players and learn e.g. their favorite games.
