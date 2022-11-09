@@ -9,16 +9,17 @@ This View contains a picture of the selected plant and the information about it.
 # 2 Flow of Events
 ## 2.1 Basic Flow
 - User clicks on "create operation" button
-- User fills in the the form
+- User fills in the form
 - User clicks on "create" to create the operation, he will be sent to the details view of the operation. A success message will be shown.
 - User clicks on "cancel" to close the form without saving the operation.
 
 ### 2.1.1 Activity Diagram
-<img src="Software Requirements Specification_files/USECase_Wiki.png">
-<img src="Software Requirements Specification_files/USECase_Wiki_Plants.png">
+<img src="USECase_Wiki.png">
+<img src="USECase_Wiki_Plants.png">
 
 ### 2.1.2 Mock-up
-
+<img src="wiki_Mockup.png">
+<img src="learn_about_plants_Mockup.png">
 
 ### 2.1.3 Narrative
 

@@ -16,7 +16,7 @@ In "Register plants" you can register a new plant. Therefore you add a new entry
 <img src="./UseCase2_registerPlants.png">
 
 ## 2.1.2 Mock-up
-
+<img src="./Mockup_registerPlant.png">
 
 ### 2.1.3 Narrative
 
