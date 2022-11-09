@@ -13,10 +13,10 @@ In "Register plants" you can register a new plant. Therefore you add a new entry
 - User clicks on "cancel" to close the form without saving the operation.
 
 ### 2.1.1 Activity Diagram
-<img src="Software Requirements Specification_files/UseCase2_registerPlants.png">
+<img src="./UseCase2_registerPlants.png">
 
-### 2.1.2 Mock-up
-
+## 2.1.2 Mock-up
+<img src="./Mockup_registerPlant.png">
 
 ### 2.1.3 Narrative
 
