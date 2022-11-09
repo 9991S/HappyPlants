@@ -93,7 +93,7 @@ The technology we use is:
 
 Backend:
 -node.js / firebase
--MariaDB 
+-PostgreSQL 
 
 Frontend:
 -Android with Java and XML
@@ -157,12 +157,12 @@ In case you share your phone, have multiple accounts or just want to be cautius 
 
 #### 3.1.4 Register plants
 
-[Register plants](https://github.com/9991S/HappyPlants/blob/a0c3731fbc5f499191740f623207495471fbf4f5/Software%20Requirements%20Specification_files/Use_Case_registerPlant.md)
+[Register plants](https://github.com/9991S/HappyPlants/blob/9d80d5ecdc813a7fa0c8132067f3cba18e593438/Software%20Requirements%20Specification_files/Use_Case_registerPlant.md)
 
 
 #### 3.1.5 Learn about plants
 
-[Learn about plants](https://github.com/9991S/HappyPlants/blob/e3e7e1c7798ee7c56d5efabda3babf40f17c12b5/Software%20Requirements%20Specification_files/Use_Case_Wiki.md)
+[Learn about plants](https://github.com/9991S/HappyPlants/blob/9d80d5ecdc813a7fa0c8132067f3cba18e593438/Software%20Requirements%20Specification_files/Use_Case_Wiki.md)
 
 #### 3.1.6 Learn about pests and bugs
 
