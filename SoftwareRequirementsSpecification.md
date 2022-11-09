@@ -257,7 +257,7 @@ The User interfaces that will be implented are:
 - Settings - shows the settings
 
 #### 3.9.2 Hardware Interfaces
-(n/a)
+(n/a) 
 
 #### 3.9.3 Software Interfaces
 The app will be runnable on Android 4.4 and higher. iOS won't be featured at the moment.
