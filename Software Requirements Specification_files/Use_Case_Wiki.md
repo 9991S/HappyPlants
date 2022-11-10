@@ -24,6 +24,9 @@ This View contains a picture of the selected plant and the information about it.
 <img src="learn_about_plants_Mockup.png">
 
 ### 2.1.3 Narrative
+[Gherkin - Wiki Information Page](https://github.com/9991S/HappyPlants/blob/ad0415a0624fedbdef3d27f2ea1ec29c5f6575d5/test_driver/features/wikiInformationPage.feature)
+
+[Gherkin - Wiki Main Activity](https://github.com/9991S/HappyPlants/blob/ad0415a0624fedbdef3d27f2ea1ec29c5f6575d5/test_driver/features/wikiMainActivity.feature)
 
 
 ## 2.2 Alternative Flows
