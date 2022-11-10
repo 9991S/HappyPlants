@@ -116,13 +116,13 @@ See here for feature files with gherkin:
 
 [Gherkin - Wiki Information Page](https://github.com/9991S/HappyPlants/blob/ad0415a0624fedbdef3d27f2ea1ec29c5f6575d5/test_driver/features/wikiInformationPage.feature)
 
-[Gherkin - Wiki Main Activity](test_driver/features/wikiMainActivity.feature)
+[Gherkin - Wiki Main Activity](https://github.com/9991S/HappyPlants/blob/ad0415a0624fedbdef3d27f2ea1ec29c5f6575d5/test_driver/features/wikiMainActivity.feature)
 
-See our step files written in dart - disclaimer: those aren't finished ye
+See our step files written in dart - disclaimer: those aren't finished yet
 
-[Step File - Wiki Information Page](./test_driver/steps/wikiInformationPage.dart)
+[Step File - Wiki Information Page](https://github.com/9991S/HappyPlants/blob/b167afc03322575f47649c985afc405f8e7004e7/test_driver/steps/wikiInformationPage.dart)
 
-[Step File - Wiki Main Aktivity](./test_driver/steps/wikiMainActivitySteps.dart)
+[Step File - Wiki Main Aktivity](https://github.com/9991S/HappyPlants/blob/b167afc03322575f47649c985afc405f8e7004e7/test_driver/steps/wikiMainActivitySteps.dart)
 
 ## 3. Specific Requirements
 
