@@ -15,10 +15,12 @@ This View contains a picture of the selected plant and the information about it.
 
 ### 2.1.1 Activity Diagram
 <img src="USECase_Wiki.png">
+
 <img src="USECase_Wiki_Plants.png">
 
 ### 2.1.2 Mock-up
 <img src="wiki_Mockup.png">
+
 <img src="learn_about_plants_Mockup.png">
 
 ### 2.1.3 Narrative

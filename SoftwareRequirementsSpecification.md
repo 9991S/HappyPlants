@@ -162,7 +162,7 @@ In case you share your phone, have multiple accounts or just want to be cautius 
 
 #### 3.1.5 Learn about plants
 
-[Learn about plants](https://github.com/9991S/HappyPlants/blob/9d80d5ecdc813a7fa0c8132067f3cba18e593438/Software%20Requirements%20Specification_files/Use_Case_Wiki.md)
+[Learn about plants](./)
 
 #### 3.1.6 Learn about pests and bugs
 

@@ -82,7 +82,7 @@ After beloved plants died despite enough water, nutrients, light and room, it wa
 
 ### 2.2 Use Case Diagram
 
-<img src="Software Requirements Specification_files/HappyPlantsWithColoring.drawio.png">
+<img src="HappyPlantsWithColoring.drawio.png">
 
 
 - Green: Planned till end of december
@@ -114,11 +114,11 @@ Testing:
 -we started to test via BDD and have some files of our first implementations.
 See here for feature files with gherkin:
 
-[Gherkin - Wiki Information Page](./test_driver/features/wikiInformationPage.feature)
+[Gherkin - Wiki Information Page](https://github.com/9991S/HappyPlants/blob/ad0415a0624fedbdef3d27f2ea1ec29c5f6575d5/test_driver/features/wikiInformationPage.feature)
 
-[Gherkin - Wiki Main Activity](./test_driver/features/wikiMainActivity.feature)
+[Gherkin - Wiki Main Activity](test_driver/features/wikiMainActivity.feature)
 
-See our step files written in dart - disclaimer: those aren't finished yet
+See our step files written in dart - disclaimer: those aren't finished ye
 
 [Step File - Wiki Information Page](./test_driver/steps/wikiInformationPage.dart)
 
@@ -157,12 +157,12 @@ In case you share your phone, have multiple accounts or just want to be cautius 
 
 #### 3.1.4 Register plants
 
-[Register plants](https://github.com/9991S/HappyPlants/blob/9d80d5ecdc813a7fa0c8132067f3cba18e593438/Software%20Requirements%20Specification_files/Use_Case_registerPlant.md)
+[Register plants](Use_Case_registerPlant.md)
 
 
 #### 3.1.5 Learn about plants
 
-[Learn about plants](https://github.com/9991S/HappyPlants/blob/9d80d5ecdc813a7fa0c8132067f3cba18e593438/Software%20Requirements%20Specification_files/Use_Case_Wiki.md)
+[Learn about plants](Use_Case_Wiki.md)
 
 #### 3.1.6 Learn about pests and bugs
 
