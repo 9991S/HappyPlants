@@ -1,6 +1,6 @@
 # happy_plants
 
-HappyPlants Teststuff
+A app for plant lovers.
 
 ## Getting Started
 
