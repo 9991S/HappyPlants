@@ -15,4 +15,9 @@ public class MainController {
         // die datei findet man unter resources/templates
         return "greeting";
     }
+
+    @GetMapping("/register")
+    public String register() {
+        return "register";
+    }
 }
