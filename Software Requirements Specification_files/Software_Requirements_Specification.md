@@ -34,9 +34,10 @@ This Software Requirements Specification (SRS) describes all specifications for 
 
 
 ### 1.2 Scope
-The project is going to be realized as an Android App.  
+The project is going to be realized as a Website.
+At first, we tried to code an Android App. You can see our old Mock-Ups here. We kept them, because the general look will stay the same.   
   
-Actors of this App can be users or moderators.  
+Actors of our Website can be users or moderators.  
   
 Planned Subsystems are: 
 * Account System:  
@@ -84,7 +85,7 @@ After beloved plants died despite enough water, nutrients, light and room, it wa
 
 <img src="HappyPlantsWithColoring.drawio.png">
 
-
+- Update: Our Database will not be MariaDB but MySQL
 - Green: Planned till end of december
 - Rest: Planned till end of june
 
@@ -92,14 +93,14 @@ After beloved plants died despite enough water, nutrients, light and room, it wa
 The technology we use is:
 
 Backend:
--node.js / firebase
--PostgreSQL 
+-SpringBoot
+-MySQL 
 
 Frontend:
--Android with Java and XML
+-Website with HTML, Java, XML and CSS.
 
 IDE:
--IntelliJ and Android Studio
+-IntelliJ and VSCode
 
 Project Management:
 -YouTrack
@@ -151,7 +152,7 @@ The app will provide the possibility to register and log in. This will also make
 
 
 #### 3.1.3 Logging out
-In case you share your phone, have multiple accounts or just want to be cautius about your privacy you should be able to manually log out.
+In case you share your Laptop, have multiple accounts or just want to be cautius about your privacy you should be able to manually log out.
 
 
 
@@ -185,41 +186,27 @@ In case you share your phone, have multiple accounts or just want to be cautius 
 [Finding a session](./use_cases/UC9_Find_Session.md)
 
 #### 3.1.11 Presenting yourself and checking out others
-With the possibility to log in there comes another functionality, the profile. Every user will have their own profile where they can write some informations about themselves. Because of the privacy policy in Europe, the user has the possibility to only write the information they want other people to see. Using the profile, users can also check out other players and learn e.g. their favorite games.
+With the possibility to log in there comes another functionality, the profile. Every user will have their own profile where they can write some informations about themselves. Because of the privacy policy in Europe, the user has the possibility to only write the information they want other people to see. Using the profile, users can also check out other plant-Owner and learn from them.
 
-#### 3.1.12 Reporting users and managing friends
-After a session, the app provides the users with the possibility to report the other participants. This is helpful because we want a community with fair players. Additionally, when they found an interesting person they can also add them to their friend list which also has a seperate page view.
-
-#### 3.1.13 Banning users and deleting posts
+#### 3.1.12 Banning users and deleting posts
 There are also some functionalities for the admins. They will get the possibility to ban users and to delete any posts.
 
 ### 3.2 Usability
-We plan on designing the user interface as intuitive and self-explanatory as possible to make the user feel as comfortable as possible using the app. Though an FAQ document will be available, it should not be necessary to use it.
+We plan on designing the user interface as intuitive and self-explanatory as possible to make the user feel as comfortable as possible using the website. Though an FAQ document will be available, it should not be necessary to use it.
 
 #### 3.2.1 No training time needed
-Our goal is that a user installs the android application, opens it and is able to use all features without any explanation or help.
-
-#### 3.2.2 Familiar Feeling
-We want to implement an app with familiar designs and functions. This way the user is able to interact in familiar ways with the app without having to get to know new interfaces.
+Our goal is that a user opens the application and is able to use all features without any explanation or help.
 
 ### 3.3 Reliability
 
 #### 3.3.1 Availability
-The server shall be available 95% of the time. This also means we have to figure out the "rush hours" of our app because the downtime of the server is only tolerable when as few as possible players want to use the app.
+The server shall be available 95% of the time. This also means we have to figure out the "rush hours" of our app because the downtime of the server is only tolerable when as few as possible users want to use the website.
 
 #### 3.3.2 Defect Rate
-Our goal is that we have no loss of any data. This is important so that the game sessions can carry on, even after a downtime of the server.
+Our goal is that we have no loss of any data. 
 
 ### 3.4 Perfomance
-
-#### 3.4.1 Capacity
-The system should be able to manage thousands of requests. Also it should be possible to register as many users as necessary.
-
-#### 3.4.2 Storage 
-Smartphones don't provide much storage. Therefore we are aiming to keep the needed storage as small as possible.
-
-#### 3.4.3 App perfomance / Response time
-To provide the best App perfomance we aim to keep the response time as low as possible. This will make the user experience much better.
+n/a
 
 ### 3.5 Supportability
 
@@ -232,14 +219,10 @@ The application will have a high test coverage and all important functionalities
 ### 3.6 Design Constraints
 We are trying to provide a modern and easy to handle design for the UI aswell as for the architecture of our application. To achieve that the functionalities will be kept as modular as possible.
 
-Because we are progamming an Android App we chose Java as our programming language. Also we are using the common MVC-architecture to keep the front end and back end seperated. For a clean front end structure we use MVVM.
-To make the communication between the two parts easy, we will implement a RESTful-API between them which will provide the data in JSON-Format. 
-The supported Platforms will be:
-- Android 4.4 and higher
-- Java 8 and higher
+Because we are progamming a Website we chose JavaScript as our programming language. Also we are using the common MVC-architecture to keep the front end and back end seperated. 
 
 ### 3.7 On-line User Documentation and Help System Requirements
-The usage of the app should be as intuitive as possible so it won't need any further documentation. If the user needs some help we will implement a "Help"-Button in the App which includes a FAQ and a formular to contact the developement team.
+The usage of the website should be as intuitive as possible so it won't need any further documentation. If the user needs some help we will implement a "Help"-Button on the website which includes a FAQ and a formular to contact the developement team.
 
 ### 3.8 Purchased Components
 We don't have any purchased components yet. If there will be purchased components in the future we will list them here.
@@ -257,10 +240,10 @@ The User interfaces that will be implented are:
 - Settings - shows the settings
 
 #### 3.9.2 Hardware Interfaces
-(n/a) 
+n/a
 
 #### 3.9.3 Software Interfaces
-The app will be runnable on Android 4.4 and higher. iOS won't be featured at the moment.
+n/a
 
 #### 3.9.4 Communication Interfaces
 The server and hardware will communicate using the http protocol. 
