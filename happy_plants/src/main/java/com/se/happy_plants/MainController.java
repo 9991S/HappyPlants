@@ -2,10 +2,11 @@ package com.se.happy_plants;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 //Controller kümmern sich um Get Requests
 
-@Controller
+@RestController
 public class MainController {
     /*GetMapping bedeutet das wenn eine Anfrage an den Server geschickt wird (hier localhost/main)
         dann wird diese Methode/html file als Antwort geschickt. */
