@@ -1,0 +1,36 @@
+CREATE TABLE users(
+  id INT NOT NULL,
+  username text NOT NULL,
+  passwort text NOT NULL,
+ 	role text NOT NULL,
+  PRIMARY KEY (id)
+)
+
+INSERT INTO users (id, username, passwort, role)
+VALUES('1','jeff', 'password', 'user');
+
+INSERT INTO users (id, username, passwort, role)
+VALUES('2','bossman', 'password', 'ADMIN');
+
+
+UPDATE user
+SET passwort = '$2a$12$TrGRvzDEjUj.HVHGg0qpuOmc5mk00NqFp4ODi.Myv1NN2tV9zwyOq'
+WHERE id = 1;
+
+UPDATE user
+SET role = 'USER'
+WHERE id = 1;
+
+
+<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+
+my sql port 3306
+pw 12345
+
+
+user name root
+pw 12345
